@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@android:color/background_dark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffff">
+
+        <ImageView
+            android:id="@+id/listImageView"
+            android:layout_width="151dp"
+            android:layout_height="119dp"
+            android:src="@drawable/pdf_logo">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/listTextView"
+            android:layout_width="231dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="90dp"
+            android:gravity="center"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/background_dark"
+            android:textSize="25sp"
+            tools:ignore="RtlCompat" />
+
+        <ImageView
+            android:id="@+id/delete_view"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="250dp"
+            app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+        <ImageView
+            android:id="@+id/share_view"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="320dp"
+            app:srcCompat="@drawable/ic_baseline_share_24" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="200dp"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
+
